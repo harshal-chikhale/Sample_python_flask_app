@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -U
+      - pip install -U flask
       - pip install -r Sample_python_flask_app/requirements.txt
   build:
     commands:
